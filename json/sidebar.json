@@ -1,0 +1,266 @@
+{
+    "id": "sidebar",
+    "name": "Sidebar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "menuitems": [
+        {
+            "id": "1",
+            "name": "Dashboard Adm",
+            "url": "/",
+            "icon": "AiOutlineDashboard",
+            "submenus": []
+        },
+        {
+            "id": "2",
+            "name": "Calendar Room",
+            "url": "/calendar",
+            "icon": "AiOutlineCalendar",
+            "submenus": []
+        },
+        {
+            "id": "11",
+            "name": "Chat GPT I.A.",
+            "url": "/chatia",
+            "icon": "AiOutlineCalendar",
+            "submenus": []
+        },
+        {
+            "id": "4",
+            "name": "Separator",
+            "url": "/",
+            "icon": "",
+            "submenus": []
+        },
+        {
+            "id": "5",
+            "name": "Users",
+            "url": "/",
+            "icon": "RiUserSettingsLine",
+            "submenus": [
+                {
+                    "id": "51",
+                    "name": "User Profile",
+                    "url": "/profile",
+                    "icon": "RiUserSettingsFill"
+                },
+                {
+                    "id": "52",
+                    "name": "Find Person",
+                    "url": "/person",
+                    "icon": "RiUserSearchFill"
+                },
+                {
+                    "id": "53",
+                    "name": "Profile Settings",
+                    "url": "/psettings",
+                    "icon": "RiUserStarLine"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Users & Persons",
+            "url": "/",
+            "icon": "FaSitemap",
+            "submenus": [
+                {
+                    "id": "61",
+                    "name": "Users",
+                    "url": "/users",
+                    "icon": "RiUserSettingsFill"
+                },
+                {
+                    "id": "62",
+                    "name": "Systems",
+                    "url": "/person",
+                    "icon": "RiUserSearchFill"
+                },
+                {
+                    "id": "63",
+                    "name": "Roles",
+                    "url": "/roles",
+                    "icon": "RiUserStarLine"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Employees",
+            "url": "/",
+            "icon": "FaRegGem",
+            "submenus": [
+                {
+                    "id": "81",
+                    "name": "Employee",
+                    "url": "/",
+                    "icon": "BsFillPersonVcardFill"
+                },
+                {
+                    "id": "82",
+                    "name": "Faixa Salarios",
+                    "url": "/",
+                    "icon": "FaCalendarCheck"
+                },
+                {
+                    "id": "83",
+                    "name": "Cargos",
+                    "url": "/",
+                    "icon": "FaCalendarCheck"
+                },
+                {
+                    "id": "85",
+                    "name": "Departments",
+                    "url": "/",
+                    "icon": "FaCalendarCheck"
+                },
+                {
+                    "id": "84",
+                    "name": "Licenças",
+                    "url": "/login",
+                    "icon": "FaSignInAlt"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Separator",
+            "url": "/",
+            "icon": "",
+            "submenus": []
+        },
+        {
+            "id": "10",
+            "name": "Devices",
+            "url": "/",
+            "icon": "SiBeijingsubway",
+            "submenus": [
+                {
+                    "id": "101",
+                    "name": "Customer Devices",
+                    "url": "/",
+                    "icon": "RiFileList3Line"
+                },
+                {
+                    "id": "102",
+                    "name": "Eden Config",
+                    "url": "/teste",
+                    "icon": "RiTodoLine"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Autenticação",
+            "url": "",
+            "icon": "AiOutlineLock",
+            "submenus": [
+                {
+                    "id": "31",
+                    "name": "Sign In",
+                    "url": "/login",
+                    "icon": "FaSignInAlt"
+                },
+                {
+                    "id": "32",
+                    "name": "Sign Up User",
+                    "url": "/usercreate",
+                    "icon": "SiGnuprivacyguard"
+                },
+                {
+                    "id": "33",
+                    "name": "Forgot Password",
+                    "url": "/forgot",
+                    "icon": "Si1Password"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Separator",
+            "url": "/",
+            "icon": "",
+            "submenus": []
+        },
+        {
+            "id": "13",
+            "name": "Projects",
+            "url": "",
+            "icon": "AiOutlineLock",
+            "submenus": [
+                {
+                    "id": "132",
+                    "name": "Solicitar Projeto",
+                    "url": "/usercreate",
+                    "icon": "SiGnuprivacyguard"
+                },
+                {
+                    "id": "131",
+                    "name": "Projects",
+                    "url": "/login",
+                    "icon": "FaSignInAlt"
+                },
+                {
+                    "id": "132",
+                    "name": "Project Status",
+                    "url": "/usercreate",
+                    "icon": "SiGnuprivacyguard"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Sales ",
+            "url": "/",
+            "icon": "FaRegGem",
+            "submenus": [
+                {
+                    "id": "71",
+                    "name": "Invoice",
+                    "url": "/",
+                    "icon": "BsFillPersonVcardFill"
+                },
+                {
+                    "id": "72",
+                    "name": "Pricing",
+                    "url": "/",
+                    "icon": "FaCalendarCheck"
+                },
+                {
+                    "id": "73",
+                    "name": "Payments",
+                    "url": "/",
+                    "icon": "BsMenuButtonWideFill"
+                },
+                {
+                    "id": "74",
+                    "name": "Prod Calculator",
+                    "url": "/",
+                    "icon": "TfiHarddrives"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Separator",
+            "url": "/",
+            "icon": "",
+            "submenus": []
+        },
+        {
+            "id": "14",
+            "name": "Extras",
+            "url": "",
+            "icon": "AiOutlineLock",
+            "submenus": [
+                {
+                    "id": "141",
+                    "name": "Estrutura IMD",
+                    "url": "/login",
+                    "icon": "FaSignInAlt"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.sidebar {
+    grid-area: sidebar;
+    position: absolute;
+    z-index: 1;
+    height: calc(100vh - 50px);
+
+    transition: width 0.3s;
+    margin-top: 50px;
+    overflow: hidden;
+    border-right: 1px solid #9e8cf8;
+}
+
+.sidebar.open {
+    width: 250px;
+    background: #01058F;
+
+}
+
+.sidebar.close {
+    width: 55px;
+    background: #01058F;
+}
+
+.sidebar_line {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    //background-color: red;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.image_sidebarline {
+    flex: 0%;
+    margin-left: 0px;
+}
+
+.descr_sidebarline {
+    flex: 70%;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-top: -3px;
+    /*background-color: yellow;*/
+    opacity: 1;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.descr_sidebarline .open {
+    opacity: 1;
+    animation: openAnimation 0.5s ease;
+}
+
+.descr_sidebarline .close {
+    opacity: 0;
+    animation: closeAnimation 0.2s ease;
+}
+
+@keyframes openAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes closeAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.arrow_sidebarline {
+    flex: 10%;
+    color: white;
+
+    .close {
+        display: none;
+    }
+}
+
+
+
+
+.sidebar_line_sub {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    padding-left: 17px;
+    //background-color: red;
+    margin-top: 8px;
+    align-items: center;
+
+}
+
+.image_sidebarline_sub {
+    flex: 0%;
+    margin-left: 10px;
+}
+
+.descr_sidebarline_sub {
+    flex: 70%;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-top: -3px;
+    /*background-color: yellow;*/
+    opacity: 1;
+    white-space: nowrap;
+    user-select: none;
+}
+
+
+
+.animateit {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
